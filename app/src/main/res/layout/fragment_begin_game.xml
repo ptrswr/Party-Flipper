@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".Game">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+
+    <TextView
+        android:id="@+id/forehead"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:fontFamily="@font/orbitron_medium"
+        android:gravity="center"
+        android:text="Place phone on your forehead"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="40sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="33dp" />
+
+    <TextView
+        android:id="@+id/text_view_countdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/orbitron_medium"
+        android:gravity="center_horizontal"
+        android:text="3"
+        android:textColor="@android:color/white"
+        android:textSize="60sp" />
+
+</LinearLayout>

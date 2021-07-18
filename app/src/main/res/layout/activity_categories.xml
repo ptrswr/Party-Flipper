@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".Categories">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <ImageView
+        android:id="@+id/choose_logo"
+        android:layout_width="229dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/choose" />
+
+    <ImageView
+        android:id="@+id/cat_logo"
+        android:layout_width="281dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:src="@drawable/category" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="49dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="279dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="20dp">
+
+                <Button
+                    android:id="@+id/animals_cat"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/orbitron_medium"
+                    android:text="Animals"
+                    app:strokeColor="#15FF00"
+                    app:strokeWidth="2dp"
+                    app:icon="@drawable/pawprint" />
+
+                <Button
+                    android:id="@+id/movies_cat"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="154dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="40dp"
+                    android:fontFamily="@font/orbitron_medium"
+                    android:text="Movies"
+                    app:strokeColor="#15FF00"
+                    app:strokeWidth="2dp"
+                    app:icon="@drawable/clapperboard" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="20dp">
+
+
+                <Button
+                    android:id="@+id/food_cat"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/orbitron_medium"
+                    android:text="Food"
+                    app:strokeColor="#15FF00"
+                    app:strokeWidth="2dp"
+                    app:icon="@drawable/food" />
+
+                <Button
+                    android:id="@+id/books_cat"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="154dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="40dp"
+                    android:fontFamily="@font/orbitron_medium"
+                    android:text="Books"
+                    app:strokeColor="#15FF00"
+                    app:strokeWidth="2dp"
+                    app:icon="@drawable/book" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="20dp">
+
+
+                <Button
+                    android:id="@+id/sport_cat"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/orbitron_medium"
+                    android:text="Sport"
+                    app:strokeColor="#15FF00"
+                    app:strokeWidth="2dp"
+                    app:icon="@drawable/sport" />
+
+                <Button
+                    android:id="@+id/geography_cat"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="154dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="40dp"
+                    android:fontFamily="@font/orbitron_medium"
+                    android:text="World"
+                    app:strokeColor="#15FF00"
+                    app:strokeWidth="2dp"
+                    app:icon="@drawable/world" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="20dp">
+
+
+                <Button
+                    android:id="@+id/games_cat"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/orbitron_medium"
+                    android:text="Games"
+                    app:strokeColor="#15FF00"
+                    app:strokeWidth="2dp"
+                    app:icon="@drawable/game" />
+
+                <Button
+                    android:id="@+id/fame_cat"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="154dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="40dp"
+                    android:fontFamily="@font/orbitron_medium"
+                    android:text="Famous men"
+                    app:strokeColor="#15FF00"
+                    app:strokeWidth="2dp"
+                    app:icon="@drawable/star" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="20dp">
+
+
+                <Button
+                    android:id="@+id/songs_cat"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/orbitron_medium"
+                    android:text="Songs"
+                    app:strokeColor="#15FF00"
+                    app:strokeWidth="2dp"
+                    app:icon="@drawable/music" />
+
+                <Button
+                    android:id="@+id/disney_cat"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="154dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="40dp"
+                    android:fontFamily="@font/orbitron_medium"
+                    android:text="Disney"
+                    app:strokeColor="#15FF00"
+                    app:strokeWidth="2dp"
+                    app:icon="@drawable/disney" />
+
+            </TableRow>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

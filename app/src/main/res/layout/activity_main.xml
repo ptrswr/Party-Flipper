@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo1" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo2" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="83dp" />
+
+    <Button
+        android:id="@+id/randomGame"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="301dp"
+        android:layout_height="77dp"
+        android:fontFamily="@font/orbitron_medium"
+        android:text="Create random game"
+        app:icon="@drawable/dice"
+        app:strokeColor="#15FF00"
+        app:strokeWidth="4dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+
+    <Button
+        android:id="@+id/choose_cat"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="298dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/orbitron_medium"
+        android:text="Choose category"
+        app:icon="@drawable/list"
+        app:strokeColor="#15FF00"
+        app:strokeWidth="4dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="62dp" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/score_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF3301a3"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/conf1"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:background="@drawable/confetti"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/congrats"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:fontFamily="@font/orbitron_medium"
+        android:gravity="center"
+        android:text="Congratulations"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="414dp"
+        android:layout_height="79dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/orbitron_medium"
+        android:gravity="center_horizontal"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/conf2"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:background="@drawable/confetti"
+        android:rotationX="180"
+        android:text="" />
+
+</LinearLayout>

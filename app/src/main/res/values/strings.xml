@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Party Flipper</string>
+    <string name="random_game"> Start random game </string>
+    <string name="categories"> Choose category </string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
